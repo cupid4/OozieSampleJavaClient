@@ -94,5 +94,7 @@ public class OozieClient {
 
 }
 ```
-  
+### Note:
+1.  In order to use kerberos authntication set system property "oozie.auth.token.cache" to true. 
+2.  We even can use oozieClient.getJobInfo("jobId") to get the info related to the job. 
 
